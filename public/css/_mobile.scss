@@ -1,0 +1,32 @@
+@media (max-width: 991px) {
+  .ss-header{
+    .ss-header__search{
+      width: 20rem;
+      min-width:20rem;
+    }
+  }
+}
+@media (max-width: 768px) {
+  //header
+  .navbar-form .fa-search {
+    left: 0.8rem;
+    color: #e6e6e6;
+    position: absolute;
+    top: 0.5rem;
+  }
+  .main-menu.nav li{
+    text-align: center;
+  }
+  .ss-header{
+    .ss-header__search{
+      width: 30rem;
+      min-width:30rem;
+    }
+  }
+  .navbar-form.navbar-left{
+    >.form-group{
+      max-width: 30rem;
+      margin:0 auto;
+    }
+  }
+}

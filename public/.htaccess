@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+<FilesMatch "\.(gif|jpe?g|png|ico)$">
+ErrorDocument 404 "no such file"
+</FilesMatch>
+RewriteCond %{REQUEST_URI} !\.(gif|jpe?g|png|ico|css|map|js)$ [NC]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [PT,L]
+</IfModule>

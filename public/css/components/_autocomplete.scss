@@ -1,0 +1,49 @@
+
+.ui-widget {
+  font-family: Lato,Arial,sans-serif;
+  font-size: 1rem;
+  overflow-y: scroll;
+  max-height: 200px;
+  .ui-state-active h4,
+  .ui-state-active h4:visited {
+    color: #26004d ;
+  }
+  .ui-state-active{
+    border:none;
+    background-color: $lightgray;
+    background-image: none!important;
+  }
+  .ui-menu-item{
+    max-height: 80px;
+    //border: 1px solid #ececf9;
+  }
+  .ui-widget-content .ui-state-active {
+    background-color: white !important;
+    border: none !important;
+  }
+  .list_item_container {
+    height: 42px;
+  }
+  .ui-widget-content .ui-state-active .list_item_container {
+    background-color: #f5f5f5;
+  }
+
+  .image {
+    float: left;
+    padding: 6px;
+  }
+  .image img{
+    width: 25px;
+    height: auto;
+  }
+  .label{
+    float:left;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(124,77,255);
+    text-align: left;
+  }
+  input:focus{
+    background-color: #f5f5f5;
+  }
+}

@@ -1,0 +1,93 @@
+$azure-color:#2dc3e8;
+$post-back-color: #f5f5f5;
+
+
+  .img_arrow { width:10px;
+  height:10px;}
+  .posts-create textarea {
+    margin-top:5px;
+    position: relative;
+    border-radius: 15px;
+    background: #ffffff;
+    border: 2px solid $azure-color;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  .posts-create-footer
+  {
+   // margin:5px;
+    display: flex;
+  }
+  .upload-image-label input {
+    visibility:hidden;
+    width:0;
+    height:0;
+  }
+  a, a i{
+    color:$azure-color;
+
+  }
+  .posts-btn,
+  .posts-btn:focus {
+    background-color: $azure-color;
+    border-color: $azure-color;
+    border-radius: 28px;
+    color: #fff;
+    min-width: 9rem;
+    box-shadow: 0 1px 1px 0 $gray;
+    outline:none;
+  }
+
+  .posts-btn:hover {
+    color: #fff;
+    background-color: darken($azure-color,10%);
+    border-color: darken($azure-color,10%);
+  }
+
+  .posts-btn.active {
+    background-color: $azure-color !important;
+    border-color: $azure-color;
+    outline:none;
+  }
+  .user-block {
+
+    .username a {
+      color:$azure-color;
+    }
+
+
+    .post-image {
+      width: 200px;
+      height: 200px;
+
+    }
+
+    .dropdown-menu {
+      background-color:$post-back-color;
+      top:80%;
+      right:0;
+      //right:0;
+    }
+    .message_body {
+      display: flex;
+      align-items: left;
+      justify-content: space-between;
+    }
+    .edit_post_link, .delete_post_link{
+      cursor: pointer;
+      color:$azure-color;
+      padding-left:3em;
+      padding:1em 0 1em 3em;
+          }
+    .image-body img {
+      width:700px;
+      height: 700px;
+    }
+  }
+  .image-body{
+    margin-top: 1rem;
+  }
+
+
+
+

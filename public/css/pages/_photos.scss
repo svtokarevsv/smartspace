@@ -1,0 +1,32 @@
+.photos{
+  .photos-list{
+    &__delete{
+      margin: 1rem;
+      position: absolute;
+      top: 0;
+      right: 35%;
+    }
+    >.panel-heading{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .photos-list__item{
+    margin-bottom: 2.5rem;
+    .photos-list__image{
+      cursor: pointer;
+    }
+    figcaption{
+      text-align: center;
+    }
+  }
+}
+#view_image_modal{
+  .modal-dialog{
+    width:fit-content;
+  }
+}
+#view_image__photo{
+  max-height: 100vh;
+}

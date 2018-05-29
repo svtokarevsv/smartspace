@@ -1,0 +1,27 @@
+.box-comments{
+  &__photo{
+    position: absolute;
+    top: 0.9rem;
+    right: 1rem;
+    text-align: right;
+  }
+  &__button{
+    width:100%;
+    background-color: $lightgray;
+  }
+  .img-push{
+    position: relative;
+  }
+  .show_image_path{
+    display: block;
+    text-align: right;
+  }
+
+}
+.box-comments .box-comment img.box-comments__image{
+  display: block;
+  width: initial!important;
+  height: initial!important;
+  float: none;
+  margin: 0 auto;
+}

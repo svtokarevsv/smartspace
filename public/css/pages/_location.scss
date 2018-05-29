@@ -1,0 +1,11 @@
+.location{
+  &__map{
+    width: 100%;
+    min-height: 400px;
+    height:70vh;
+    max-height: 100vh;
+  }
+  &__update-btn{
+    margin-bottom:2rem;
+  }
+}

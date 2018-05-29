@@ -1,0 +1,25 @@
+.ss-header {
+  .ss-header__search {
+    min-width: 33rem;
+    background: rgba(255, 255, 255, 0.2);
+    border: 0;
+    box-shadow: none;
+    color: #fff;
+    height: 26px;
+    border-radius: 13px;
+    font-size: 13px;
+    padding-left: 30px;
+  }
+  &__avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+  }
+
+}
+
+@media all and (min-width: 1000px) {
+  .ss-header__navbar.navbar-collapse {
+    padding-left: 26rem;
+  }
+}

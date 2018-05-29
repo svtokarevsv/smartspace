@@ -1,0 +1,14 @@
+.template_event{
+  border-radius: 3px;
+  background: #ffffff;
+  border-bottom: 3px solid #2dc3e8;
+  margin-bottom: 20px;
+}
+.template_event__img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.template_event__img img{
+  max-height: 30%;
+}

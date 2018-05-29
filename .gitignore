@@ -1,0 +1,4 @@
+.idea
+.vscode
+app/.vscode/launch.json
+/app/config/config.php

@@ -1,0 +1,32 @@
+
+@import "base/constants";//all constants like colors should go in constants file. don't use hex colors in your css, only variables
+@import "base/base";//all styles that styles basic layout goes here
+//unless they are for one time use - then ok
+@import "base/helpers";//some small classes like for margin only, or for height only can go here
+
+/*all components go below*/
+@import "components/ss-header";
+@import "components/white-card";
+@import "components/loader";
+@import "components/box-comments";
+@import "components/autocomplete";
+
+/*all pages go below*/
+//don't right your css here, make it in scss files for your pages if it is specific to your pages
+//and then import them here
+//or in components if it is a component like button or smth
+@import "pages/left-sidebar";
+@import "pages/right-sidebar";
+@import "pages/groups";
+@import "pages/posts";
+@import "pages/authorization";
+@import "pages/events";
+@import "pages/search";
+@import "pages/messages";
+@import "pages/photos";
+@import "pages/location";
+@import "pages/jobs";
+
+/*mobile styles*/
+@import "mobile";
+

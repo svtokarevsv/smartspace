@@ -1,0 +1,8 @@
+.search{
+  &__tab.active{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
