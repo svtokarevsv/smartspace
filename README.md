@@ -2,7 +2,7 @@
 social network project
 https://smart-space.herokuapp.com
 Features with developer names:
-1. Groups:(Sviatslav)
+1. Groups:(Sviatoslav)
     Link: /groups
 2. Posts: (Gurinder)
      Link: /posts
@@ -22,7 +22,7 @@ Features with developer names:
 
 |Date | Description | developer
 |- | - | - 
-|10 april | MVC | Sviatslav
+|10 april | MVC | Sviatoslav
 |10 april | groups feature | Sviatslav
 |10 april | posts feature | Gurinder
 |10 april | jobs feature | To. Ngoc
