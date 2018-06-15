@@ -18,12 +18,17 @@ Features with developer names:
        Link: /
 8. Friends (Gurinder Girn)
        Link: /friends
+9. MVC (Sviatoslav)
+10. Comments (Sviatoslav)
+11. Messages (Sviatoslav)
+12. Location sharing (Sviatoslav)
+13. Random jokes (Sviatoslav)
        
 
 |Date | Description | developer
 |- | - | - 
 |10 april | MVC | Sviatoslav
-|10 april | groups feature | Sviatslav
+|10 april | groups feature | Sviatoslav
 |10 april | posts feature | Gurinder
 |10 april | jobs feature | To. Ngoc
 |10 april | authorization | Artem
